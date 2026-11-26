@@ -1,0 +1,19 @@
+# Tested with Python 3.12 on Windows 11 (CPU only)
+
+# Document processing
+pymupdf>=1.24
+python-docx>=1.1
+
+# Embeddings + re-ranking (ONNX Runtime, no PyTorch) and vector database
+fastembed>=0.5
+qdrant-client>=1.12
+
+# LLM
+anthropic>=2.14,<3
+pydantic>=2.7
+python-dotenv>=1.0
+
+# Notebook
+pandas>=2.2
+jupyterlab>=4.0
+ipywidgets>=8.1
